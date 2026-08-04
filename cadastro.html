@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Smart Control</title>
+</head>
+<body>
+    <form action="index.html" method="get">
+        <label for="nome">Nome completo</label><br>
+        <input type="text" id="nome" name="Nome completo" placeholder="enter" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="Email" placeholder="enter" required><br>
+        <label for="senha">Senha</label><br>
+        <input type="password" id="senha" name="Senha" minlength="8" placeholder="Enter" required><br>
+        <label for="nivel-acesso">Nível de acesso</label><br>
+        <select  id="nivel-acesso" name="Nível" required><
+            <option value="" hidden>Selecione uma opção</option>
+            <option value="administrador">administrador</option>
+            <option value="gerente">gerente</option><
+        </select>
+        <br><label for="termos">Aceito os termos de uso</label><br>
+        <input type="checkbox" id="termos" required><br>
+        <input type="submit" value="entrar"> <br><br>
+    </form>
+</body>
+</html>
