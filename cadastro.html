@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,10 @@
     <title>Cadastro - Smart Control</title>
 </head>
 <body>
+    <header>
+        <img src="assets/images/file_000000004444822fa6e6201d9d9b4f6a(1).png" alt="Logo Smart Control" width="200" height="200">
+    </header>
+
     <form action="index.html" method="get">
         <label for="nome">Nome completo</label><br>
         <input type="text" id="nome" name="Nome completo" placeholder="enter" required><br>
@@ -15,14 +19,20 @@
         <label for="senha">Senha</label><br>
         <input type="password" id="senha" name="Senha" minlength="8" placeholder="Enter" required><br>
         <label for="nivel-acesso">Nível de acesso</label><br>
-        <select  id="nivel-acesso" name="Nível" required><
+        <select  id="nivel-acesso" name="Nível" required>
             <option value="" hidden>Selecione uma opção</option>
             <option value="administrador">administrador</option>
-            <option value="gerente">gerente</option><
+            <option value="gerente">gerente</option>
         </select>
         <br><label for="termos">Aceito os termos de uso</label><br>
         <input type="checkbox" id="termos" required><br>
         <input type="submit" value="entrar"> <br><br>
     </form>
+    <br>
+
+    <a href="index.html">Voltar ao login</a>
+    <br>
+
+    
 </body>
 </html>

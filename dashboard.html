@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
 </head>
 <body>
-    <h1>Dashboard</h1>
+    <header>
+        <img src="assets/images/file_000000004444822fa6e6201d9d9b4f6a(1).png" alt="Logo Smart Control" width="200" height="200">
+    </header>
 
-    <nav>
-        <ul>
-        
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Relatórios</a></li>
-            <li><a href="#">Configurações</a></li>
-            <li><a href="#">perfil</a></li>
-        </ul>
+    <h1>Dashboard</h1>
+    
+
+
+    <nav>        
+        <details>
+            <summary>Menu</summary>
+            <ul>
+                <li><a href="#">Relatórios</a></li>
+                <li><a href="#">Configurações</a></li>
+                <li>
+                    <details>
+                        <summary>Perfil</summary>
+                        <ul>
+                            <li><a href="index.html">Sair</a></li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </details>
         
         <h2>Cômodos</h2>
         <div class="comodos">
@@ -123,7 +137,7 @@
                 <td>Gustavo Silva</td>
                 <td>08/07/2026</td>
                 <td>17:45</td>
-                <td>status</td>
+                <td>gerente</td>
             </tr>
         </tbody>
 
@@ -132,11 +146,14 @@
                 <td>Mariana Santana</td>
                 <td>16/04/2026</td>
                 <td>08:23</td>
-                <td>status</td>
+                <td>administrador</td>
             </tr>
         </tbody>
 
     </table>
+
+    <h1>Sede da empresa</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.0882049939755!2d-43.347133!3d-21.776847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b426addc92b%3A0xc6edcb558af22943!2sMontreal%20Constru%C3%A7%C3%B5es!5e0!3m2!1spt-BR!2sbr!4v1785950247732!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
     <footer>
         <a href="https://pedrotech.com.br/pedrolandia/" target="_blank">Portal PedroLândia</a>
